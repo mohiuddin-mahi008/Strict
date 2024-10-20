@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    ---lato:  font-family: 'Lato', sans-serif;
+}
+
+/* Hero part start */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 35px;
+    font-size: 20px;
+    font-family: var(---lato);
+    color: #2d3950;
+}
+.container span{
+    color: #2d3950;
+    font-size: 30px;
+    font-family: var(---lato);
+    font-weight: bold;
+}
+.navbar_main{
+    padding: 20px 0px 20px 0px;
+}
+
+/* Hero con start */
+.hero_bg_main{
+    background: url(..//images/03-STRICT-hero-img.png) no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.hero_con h1{
+    color: #ffffff;
+    font-size: 120px;
+    font-family: var(---lato);
+    font-weight: 600;
+    padding-top: 90px;
+}
+.hero_divider{
+    width: 600px;
+    height: 2px;
+    background-color: #15a3f8;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.hero_con p{
+    padding-top: 40px;
+    color: #ffffff;
+    font-family: var(---lato);
+    font-size: 20px;
+}
+.hero_btn{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #15a3f8;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: var(---lato);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.hero_btn:hover{
+    background-color: #15a3f8;
+}
+.hero_d_icon i{
+    color:#ffffff;
+    padding: 80px 0px 40px 0px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* Design part start */
+.design_bg{
+    background-color: #f5f9f9;
+}
+.design_con h4{
+    color: #2d3950;
+    font-size: 40px;
+    font-family: var(---lato);
+    padding-top: 80px;
+    text-align: center;
+}
+.design_con p{
+    color: #999999;
+    font-size: 20px;
+    font-family: var(---lato);
+    padding: 30px 0px 80px 0px;
+    text-align: center;
+}
+.headline_icon{
+    width: 100px;
+    height: 100px;
+    background-color: #48baff;
+    margin: 50px 0px 0px 70px;
+    position: relative;
+}
+.headline_icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #ffffff;
+
+}
+.design_con_col h5{
+    color: #2d3950;
+    font-size: 22px;
+    font-family: var(---lato);
+    text-align: center;
+    padding-top: 20px;
+}
+.design_con_col p{
+    color: #999999;
+    font-size: 15px;
+    font-family: var(---lato);
+    text-align: center;
+    padding: 10px 0px 50px 0px;
+}
+.simple_ro{
+    justify-content: center;
+    gap: 50px;
+}
+.headline_icon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #ffffff;
+}
+.hd_i2{
+    margin-left: 130px;
+}
+
+/* Like part start */
+#like_main{
+    background-color: #f5f9f9;
+    padding-bottom: 100px;
+}
+.like_con h3{
+    color: #2d3950;
+    font-family: var(---lato);
+    font-size: 41px;
+    text-align: center;
+    padding-top: 80px;
+}
+.like_con p{
+    color: #999999;
+    font-family: var(---lato);
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 0px 70px 0px;
+}
+
+.like_img{
+position: relative;
+cursor: pointer;
+}
+.like_overlay_icon{
+    width: 0px;
+    height: 0px;
+    background-color: rgba(44, 172, 247, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.like_img:hover .like_overlay_icon{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+}
+.like_img:hover .like_overlay_icon i{
+    display: block;
+}
+.like_overlay_icon i{
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding-top: 6px;
+    display: none;
+    border-radius: 5px;
+}
+
+/* contact part start */
+#contact_main{
+    background: url(..//images/03-STRICT-footer-img.png) no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.contact_con h4{
+    padding-top: 70px;
+    color: #ffffff;
+    font-family: var(---lato);
+    font-size: 41px;
+    text-align: center;
+}
+.contact_con p{
+    padding: 10px 0px 50px 0px;
+    color: #ffffff;
+    font-family: var(---lato);
+    font-size: 15px;
+    text-align: center;
+}
+.con_info{
+    text-align: center;
+}
+.name input{
+    width: 600px;
+    height:50px;
+    padding-left: 10px;
+    font-family: var(---lato);
+    font-size: 15px;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.email input{
+    width: 600px;
+    height:50px;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: var(---lato);
+    font-size: 15px;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.massage textarea{
+    width: 600px;
+    min-height:160px;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: var(---lato);
+    font-size: 15px;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.chikbox_ect{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 255px 0px 258px;
+    padding-bottom: 100px;
+}
+.checkbox span{
+    color: #ffffff;
+    font-family: var(---lato);
+    font-size: 15px;
+    padding-left: 10px;
+
+}
+.chikbox_ect button{
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    font-size: 18px;
+    font-family: var(---lato);
+    border: 1px solid #15a3f8;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.chikbox_ect button:hover{
+    background-color: #15a3f8;
+}
+/* Footer part start */
+#footer_main{
+    background-color: #f5f9f9;
+}
+.footer_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px 20px 0px;
+    font-size: 15px;
+    font-family: var(---lato);
+    color: #999999;
+}
+.footer_social_link i{
+    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #15a3f8;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 7px;
+    border-radius: 5px;
+}
